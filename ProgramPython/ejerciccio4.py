@@ -1,0 +1,17 @@
+""" Estructura de programación secuencial
+Cuando en un problema sólo participan operaciones, entradas y salidas se la denomina una estructura secuencial."""
+
+# Realizar la carga del precio de un producto y la cantidad a llevar. Mostrar cuanto se debe pagar (se ingresa un valor entero en el precio del producto)
+
+precio=int(input("Ingrese el precio del producto:"))
+cantidad=int(input("Ingrese la cantidad de productos a llevar:"))
+importe=precio*cantidad
+
+
+print("El importe a pagar es")
+print(importe)
+
+'''
+print('-------------------')
+print("El importe a pagar es" , importe)
+'''
